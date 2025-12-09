@@ -58,8 +58,7 @@ with st.sidebar:
 
     st.markdown("---")
     st.write("Notes:")
-    st.write("- English uses a small fast model. Hindi uses a multilingual model.")
-    st.write("- First run downloads model weights (may take a minute).")
+    
     st.write("")
 
 # Choose model name
@@ -164,4 +163,5 @@ with col2:
             st.info("No log file found.")
 
 st.markdown("---")
-st.write("Made with Transformers • Model downloads occur only once and are cached locally.")
+ 
+
