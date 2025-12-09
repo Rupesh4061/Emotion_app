@@ -1,0 +1,76 @@
+##############################
+# Python general
+##############################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.log
+
+##############################
+# Virtual Environment
+##############################
+venv/
+env/
+ENV/
+.venv/
+
+##############################
+# Streamlit / App logs
+##############################
+.streamlit/
+predictions_log.csv
+
+##############################
+# OS / Editor files
+##############################
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+##############################
+# Model / Dataset Files
+##############################
+# HuggingFace transformers cache
+.cache/
+huggingface/
+transformers/
+
+# Local model directories
+models/
+*.bin
+*.pt
+*.h5
+*.ckpt
+
+##############################
+# Data files (keep CSVs you need)
+##############################
+# Ignore all CSV EXCEPT your pseudo data file
+*.csv
+!data/
+!data/pseudo_emotion_dataset_1000.csv
+
+##############################
+# Jupyter notebooks checkpoints
+##############################
+.ipynb_checkpoints/
+
+##############################
+# Build / Distribution
+##############################
+build/
+dist/
+*.egg-info/
+
+##############################
+# Windows / Mac trash
+##############################
+$RECYCLE.BIN/
+*.tmp
